@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2A19EEE282A229000E41366 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19EED282A229000E41366 /* MainView.swift */; };
 		E2FD9691282A018A00DCE5FC /* RiddleRingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD9690282A018A00DCE5FC /* RiddleRingApp.swift */; };
 		E2FD9693282A018A00DCE5FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD9692282A018A00DCE5FC /* ContentView.swift */; };
 		E2FD9695282A018A00DCE5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD9694282A018A00DCE5FC /* Assets.xcassets */; };
@@ -27,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E2A19EED282A229000E41366 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E2A19EEF282A5C1C00E41366 /* RiddleRing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RiddleRing.entitlements; sourceTree = "<group>"; };
 		E2A8B7A9282A114E00DF4B44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2FD968D282A018A00DCE5FC /* RiddleRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiddleRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FD9690282A018A00DCE5FC /* RiddleRingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleRingApp.swift; sourceTree = "<group>"; };
@@ -78,11 +81,13 @@
 		E2FD968F282A018A00DCE5FC /* RiddleRing */ = {
 			isa = PBXGroup;
 			children = (
+				E2A19EEF282A5C1C00E41366 /* RiddleRing.entitlements */,
 				E2A8B7A9282A114E00DF4B44 /* Info.plist */,
 				E2FD96A1282A01CE00DCE5FC /* Fonts */,
 				E2FD96A0282A01C300DCE5FC /* Utils */,
 				E2FD9690282A018A00DCE5FC /* RiddleRingApp.swift */,
 				E2FD96A2282A01DA00DCE5FC /* Splash.swift */,
+				E2A19EED282A229000E41366 /* MainView.swift */,
 				E2FD9692282A018A00DCE5FC /* ContentView.swift */,
 				E2FD9694282A018A00DCE5FC /* Assets.xcassets */,
 				E2FD969E282A01B400DCE5FC /* Colors.xcassets */,
@@ -208,6 +213,7 @@
 				E2FD9693282A018A00DCE5FC /* ContentView.swift in Sources */,
 				E2FD96A3282A01DA00DCE5FC /* Splash.swift in Sources */,
 				E2FD9691282A018A00DCE5FC /* RiddleRingApp.swift in Sources */,
+				E2A19EEE282A229000E41366 /* MainView.swift in Sources */,
 				E2FD96A5282A01F600DCE5FC /* ViewModifiers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +340,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RiddleRing/RiddleRing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RiddleRing/Preview Content\"";
@@ -364,6 +371,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RiddleRing/RiddleRing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"RiddleRing/Preview Content\"";

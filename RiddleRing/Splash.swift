@@ -9,7 +9,7 @@ import SwiftUI
 
 struct Splash: View {
     @State private var isActive = false
-    let nextPage = ContentView()
+    let nextPage = MainView()
     var body: some View {
         NavigationView {
             ZStack{
@@ -21,7 +21,7 @@ struct Splash: View {
                         .resizable()
                         .aspectRatio(contentMode: .fit)
                         .frame(maxWidth:100,alignment: .center)
-                        .padding(.top, 100)
+                        .padding(.top, 70)
                         
                     
                     Text("R·R")

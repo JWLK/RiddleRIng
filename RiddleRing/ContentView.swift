@@ -8,19 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
+    var data: cardModel
+    
     var body: some View {
         NavigationView {
             VStack(alignment: .center, spacing: 5) {
-                Spacer()
-                Image("Ring")
-                    .resizable()
-                    .aspectRatio(contentMode: .fit)
-                    .frame(maxWidth:100,alignment: .center)
-                    .padding(.top, 0)
-                
-                Spacer()
                 VStack{
-                    Text("Gift Tag")
+                    Image(data.image)
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .frame(maxWidth:100,alignment: .center)
+                        
+                    Spacer()
+                    
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment:.center)
+                .background(Color("wineDynamic"))
+                VStack{
+                    Text(data.heading)
                         .font(.custom("IBMPlexSansKR-Regular", size: 24))
                         .foregroundColor(Color("textDefault"))
                     
@@ -44,10 +49,7 @@ struct ContentView: View {
                 }
                 .frame(maxWidth: .infinity, maxHeight: 300, alignment:.leading)
                 .background(Color.gray.opacity(0.1))
-
-                
-                
-                    
+  
             }
             
         }
@@ -56,7 +58,7 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView().preferredColorScheme(.light)
-        ContentView().preferredColorScheme(.dark)
+        ContentView(data: cardData[0]).preferredColorScheme(.light)
+        ContentView(data: cardData[0]).preferredColorScheme(.dark)
     }
 }
