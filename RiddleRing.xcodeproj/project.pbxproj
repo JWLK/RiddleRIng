@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E2A8B7AA282A114E00DF4B44 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E2A8B7A9282A114E00DF4B44 /* Info.plist */; };
 		E2FD9691282A018A00DCE5FC /* RiddleRingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD9690282A018A00DCE5FC /* RiddleRingApp.swift */; };
 		E2FD9693282A018A00DCE5FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD9692282A018A00DCE5FC /* ContentView.swift */; };
 		E2FD9695282A018A00DCE5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD9694282A018A00DCE5FC /* Assets.xcassets */; };
@@ -189,7 +188,6 @@
 				E2FD96B9282A031300DCE5FC /* IBMPlexSansKR-SemiBold.ttf in Resources */,
 				E2FD96B6282A031300DCE5FC /* 3270SemiNarrow.ttf in Resources */,
 				E2FD96B3282A031300DCE5FC /* IBMPlexSansKR-Regular.ttf in Resources */,
-				E2A8B7AA282A114E00DF4B44 /* Info.plist in Resources */,
 				E2FD9698282A018A00DCE5FC /* Preview Assets.xcassets in Resources */,
 				E2FD96B5282A031300DCE5FC /* 3270Medium.ttf in Resources */,
 				E2FD96B7282A031300DCE5FC /* 3270Narrow.ttf in Resources */,
