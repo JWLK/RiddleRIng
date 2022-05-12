@@ -45,9 +45,7 @@ struct MainView: View {
                     .navigationBarTitle(Text("Ring List"))
                 }
             }
-            
         }
-        
     }
     
 }

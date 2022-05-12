@@ -4,10 +4,37 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>RiddleClip.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>isShown</key>
+			<true/>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
 		<key>RiddleRing.xcscheme_^#shared#^_</key>
 		<dict>
+			<key>isShown</key>
+			<true/>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>E2F5632B282BCECE002870F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2F56388282C27CE002870F8</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2FD968C282A018A00DCE5FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

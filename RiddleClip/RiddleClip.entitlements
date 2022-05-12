@@ -4,8 +4,11 @@
 <dict>
 	<key>com.apple.developer.associated-domains</key>
 	<array>
-		<string>webcredentials:rr.swirly.me</string>
-		<string>applinks:rr.swirly.me</string>
+		<string>appclips:rr.swirly.me</string>
+	</array>
+	<key>com.apple.developer.parent-application-identifiers</key>
+	<array>
+		<string>$(AppIdentifierPrefix)com.jwlryk.RiddleRing</string>
 	</array>
 </dict>
 </plist>

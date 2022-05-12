@@ -8,6 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		E2A19EEE282A229000E41366 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19EED282A229000E41366 /* MainView.swift */; };
+		E2F5638C282C27CE002870F8 /* RiddleClipApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F5638B282C27CE002870F8 /* RiddleClipApp.swift */; };
+		E2F56393282C27CF002870F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F56392282C27CF002870F8 /* Preview Assets.xcassets */; };
+		E2F56398282C27CF002870F8 /* RiddleClip.app in Embed App Clips */ = {isa = PBXBuildFile; fileRef = E2F56389282C27CE002870F8 /* RiddleClip.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E2F5639C282C2834002870F8 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A19EED282A229000E41366 /* MainView.swift */; };
+		E2F5639D282C2838002870F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD9692282A018A00DCE5FC /* ContentView.swift */; };
+		E2F5639E282C283D002870F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD9694282A018A00DCE5FC /* Assets.xcassets */; };
+		E2F5639F282C2840002870F8 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD969E282A01B400DCE5FC /* Colors.xcassets */; };
+		E2F563A0282C28AB002870F8 /* Splash.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD96A2282A01DA00DCE5FC /* Splash.swift */; };
+		E2F563A1282C29AF002870F8 /* ViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD96A4282A01F500DCE5FC /* ViewModifiers.swift */; };
+		E2F563A2282C29B4002870F8 /* 3270SemiNarrow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96AC282A031300DCE5FC /* 3270SemiNarrow.ttf */; };
+		E2F563A3282C29B4002870F8 /* IBMPlexSansKR-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96AE282A031300DCE5FC /* IBMPlexSansKR-Medium.ttf */; };
+		E2F563A4282C29B4002870F8 /* IBMPlexSansKR-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96A6282A031300DCE5FC /* IBMPlexSansKR-ExtraLight.ttf */; };
+		E2F563A5282C29B4002870F8 /* IBMPlexSansKR-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96A9282A031300DCE5FC /* IBMPlexSansKR-Regular.ttf */; };
+		E2F563A6282C29B4002870F8 /* 3270Narrow.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96AD282A031300DCE5FC /* 3270Narrow.ttf */; };
+		E2F563A7282C29B4002870F8 /* IBMPlexSansKR-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96A7282A031300DCE5FC /* IBMPlexSansKR-Bold.ttf */; };
+		E2F563A8282C29B4002870F8 /* 3270Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96AB282A031300DCE5FC /* 3270Medium.ttf */; };
+		E2F563A9282C29B4002870F8 /* IBMPlexSansKR-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96AF282A031300DCE5FC /* IBMPlexSansKR-SemiBold.ttf */; };
+		E2F563AA282C29B4002870F8 /* IBMPlexSansKR-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96A8282A031300DCE5FC /* IBMPlexSansKR-Light.ttf */; };
+		E2F563AB282C29B4002870F8 /* IBMPlexSansKR-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96AA282A031300DCE5FC /* IBMPlexSansKR-Thin.ttf */; };
 		E2FD9691282A018A00DCE5FC /* RiddleRingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD9690282A018A00DCE5FC /* RiddleRingApp.swift */; };
 		E2FD9693282A018A00DCE5FC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2FD9692282A018A00DCE5FC /* ContentView.swift */; };
 		E2FD9695282A018A00DCE5FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2FD9694282A018A00DCE5FC /* Assets.xcassets */; };
@@ -27,10 +46,39 @@
 		E2FD96B9282A031300DCE5FC /* IBMPlexSansKR-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E2FD96AF282A031300DCE5FC /* IBMPlexSansKR-SemiBold.ttf */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		E2F56396282C27CF002870F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2FD9685282A018A00DCE5FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2F56388282C27CE002870F8;
+			remoteInfo = RiddleClip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E2F56324282BCE57002870F8 /* Embed App Clips */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/AppClips";
+			dstSubfolderSpec = 16;
+			files = (
+				E2F56398282C27CF002870F8 /* RiddleClip.app in Embed App Clips */,
+			);
+			name = "Embed App Clips";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		E2A19EED282A229000E41366 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		E2A19EEF282A5C1C00E41366 /* RiddleRing.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RiddleRing.entitlements; sourceTree = "<group>"; };
 		E2A8B7A9282A114E00DF4B44 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F56389282C27CE002870F8 /* RiddleClip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiddleClip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2F5638B282C27CE002870F8 /* RiddleClipApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleClipApp.swift; sourceTree = "<group>"; };
+		E2F56392282C27CF002870F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E2F56394282C27CF002870F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F56395282C27CF002870F8 /* RiddleClip.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RiddleClip.entitlements; sourceTree = "<group>"; };
 		E2FD968D282A018A00DCE5FC /* RiddleRing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RiddleRing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2FD9690282A018A00DCE5FC /* RiddleRingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiddleRingApp.swift; sourceTree = "<group>"; };
 		E2FD9692282A018A00DCE5FC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +100,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		E2F56386282C27CE002870F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FD968A282A018A00DCE5FC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,10 +117,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E2F5638A282C27CE002870F8 /* RiddleClip */ = {
+			isa = PBXGroup;
+			children = (
+				E2F5638B282C27CE002870F8 /* RiddleClipApp.swift */,
+				E2F56394282C27CF002870F8 /* Info.plist */,
+				E2F56395282C27CF002870F8 /* RiddleClip.entitlements */,
+				E2F56391282C27CF002870F8 /* Preview Content */,
+			);
+			path = RiddleClip;
+			sourceTree = "<group>";
+		};
+		E2F56391282C27CF002870F8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E2F56392282C27CF002870F8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		E2FD9684282A018A00DCE5FC = {
 			isa = PBXGroup;
 			children = (
 				E2FD968F282A018A00DCE5FC /* RiddleRing */,
+				E2F5638A282C27CE002870F8 /* RiddleClip */,
 				E2FD968E282A018A00DCE5FC /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				E2FD968D282A018A00DCE5FC /* RiddleRing.app */,
+				E2F56389282C27CE002870F8 /* RiddleClip.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -132,6 +208,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		E2F56388282C27CE002870F8 /* RiddleClip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2F56399282C27CF002870F8 /* Build configuration list for PBXNativeTarget "RiddleClip" */;
+			buildPhases = (
+				E2F56385282C27CE002870F8 /* Sources */,
+				E2F56386282C27CE002870F8 /* Frameworks */,
+				E2F56387282C27CE002870F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RiddleClip;
+			productName = RiddleClip;
+			productReference = E2F56389282C27CE002870F8 /* RiddleClip.app */;
+			productType = "com.apple.product-type.application.on-demand-install-capable";
+		};
 		E2FD968C282A018A00DCE5FC /* RiddleRing */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E2FD969B282A018A00DCE5FC /* Build configuration list for PBXNativeTarget "RiddleRing" */;
@@ -139,10 +232,12 @@
 				E2FD9689282A018A00DCE5FC /* Sources */,
 				E2FD968A282A018A00DCE5FC /* Frameworks */,
 				E2FD968B282A018A00DCE5FC /* Resources */,
+				E2F56324282BCE57002870F8 /* Embed App Clips */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E2F56397282C27CF002870F8 /* PBXTargetDependency */,
 			);
 			name = RiddleRing;
 			productName = RiddleRing;
@@ -159,6 +254,9 @@
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
+					E2F56388282C27CE002870F8 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
 					E2FD968C282A018A00DCE5FC = {
 						CreatedOnToolsVersion = 13.3.1;
 					};
@@ -178,11 +276,32 @@
 			projectRoot = "";
 			targets = (
 				E2FD968C282A018A00DCE5FC /* RiddleRing */,
+				E2F56388282C27CE002870F8 /* RiddleClip */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		E2F56387282C27CE002870F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F563AB282C29B4002870F8 /* IBMPlexSansKR-Thin.ttf in Resources */,
+				E2F56393282C27CF002870F8 /* Preview Assets.xcassets in Resources */,
+				E2F563A8282C29B4002870F8 /* 3270Medium.ttf in Resources */,
+				E2F563A2282C29B4002870F8 /* 3270SemiNarrow.ttf in Resources */,
+				E2F5639F282C2840002870F8 /* Colors.xcassets in Resources */,
+				E2F563A5282C29B4002870F8 /* IBMPlexSansKR-Regular.ttf in Resources */,
+				E2F563A3282C29B4002870F8 /* IBMPlexSansKR-Medium.ttf in Resources */,
+				E2F563A9282C29B4002870F8 /* IBMPlexSansKR-SemiBold.ttf in Resources */,
+				E2F563A4282C29B4002870F8 /* IBMPlexSansKR-ExtraLight.ttf in Resources */,
+				E2F563A7282C29B4002870F8 /* IBMPlexSansKR-Bold.ttf in Resources */,
+				E2F5639E282C283D002870F8 /* Assets.xcassets in Resources */,
+				E2F563A6282C29B4002870F8 /* 3270Narrow.ttf in Resources */,
+				E2F563AA282C29B4002870F8 /* IBMPlexSansKR-Light.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FD968B282A018A00DCE5FC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +325,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		E2F56385282C27CE002870F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2F563A1282C29AF002870F8 /* ViewModifiers.swift in Sources */,
+				E2F5639C282C2834002870F8 /* MainView.swift in Sources */,
+				E2F5639D282C2838002870F8 /* ContentView.swift in Sources */,
+				E2F563A0282C28AB002870F8 /* Splash.swift in Sources */,
+				E2F5638C282C27CE002870F8 /* RiddleClipApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E2FD9689282A018A00DCE5FC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,7 +351,81 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		E2F56397282C27CF002870F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2F56388282C27CE002870F8 /* RiddleClip */;
+			targetProxy = E2F56396282C27CF002870F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		E2F5639A282C27CF002870F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RiddleClip/RiddleClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 202205125;
+				DEVELOPMENT_ASSET_PATHS = "\"RiddleClip/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5Y4BCFEB5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RiddleClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RiddleRing;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwlryk.RiddleRing.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG APPCLIP";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2F5639B282C27CF002870F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = RiddleClip/RiddleClip.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 202205125;
+				DEVELOPMENT_ASSET_PATHS = "\"RiddleClip/Preview Content\"";
+				DEVELOPMENT_TEAM = Q5Y4BCFEB5;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RiddleClip/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RiddleRing;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.5;
+				PRODUCT_BUNDLE_IDENTIFIER = com.jwlryk.RiddleRing.Clip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = APPCLIP;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		E2FD9699282A018A00DCE5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -338,11 +543,12 @@
 		E2FD969C282A018A00DCE5FC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RiddleRing/RiddleRing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 202205125;
 				DEVELOPMENT_ASSET_PATHS = "\"RiddleRing/Preview Content\"";
 				DEVELOPMENT_TEAM = Q5Y4BCFEB5;
 				ENABLE_PREVIEWS = YES;
@@ -357,7 +563,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jwlryk.RiddleRing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -369,11 +575,12 @@
 		E2FD969D282A018A00DCE5FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = RiddleRing/RiddleRing.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 202205125;
 				DEVELOPMENT_ASSET_PATHS = "\"RiddleRing/Preview Content\"";
 				DEVELOPMENT_TEAM = Q5Y4BCFEB5;
 				ENABLE_PREVIEWS = YES;
@@ -388,7 +595,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.5;
 				PRODUCT_BUNDLE_IDENTIFIER = com.jwlryk.RiddleRing;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -400,6 +607,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		E2F56399282C27CF002870F8 /* Build configuration list for PBXNativeTarget "RiddleClip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2F5639A282C27CF002870F8 /* Debug */,
+				E2F5639B282C27CF002870F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E2FD9688282A018A00DCE5FC /* Build configuration list for PBXProject "RiddleRing" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

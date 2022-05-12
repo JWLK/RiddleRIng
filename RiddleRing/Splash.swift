@@ -42,7 +42,12 @@ struct Splash: View {
                 NavigationLink(destination: nextPage.hiddenNavigationBarStyle(),
                                isActive: $isActive,
                                label: { EmptyView() })
-            }.statusBar(hidden: true)
+            }
+            .statusBar(hidden: true)
+            .onOpenURL { url in
+//                tappedUrl = url.absoluteString
+                print("url", url)
+            }
         }
     }
 
